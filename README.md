@@ -67,6 +67,8 @@ Confusion Matrix:
 *   SVM is the slowest 
 *   KNN trains fastet
 *   Logistic Regression has highest accuracy
+
+  
 ![alt text](/images/model_comp.png)
 
 Cross validation results:
@@ -84,6 +86,7 @@ Logistic Regression      0.8977  0.0018
 **Improving the model**
 
 Best params for each model:
+
 ![alt text](/images/hyperparameter_tuning.png)
 
 
