@@ -59,8 +59,11 @@ Conclusion from the visualization and correlation matrix;
 ![alt text](/images/simple_classification.png)
 
 Confusion Matrix:
-[[7229   81]
- [ 751  177]]
+
+|           | Postive| Negative |
+| --------- | ------ | -------- |
+| Positive  | 7229   | 81       |
+| Negative  | 751    | 177      |
 
 **Model comparison results**
 
