@@ -1,10 +1,10 @@
-## feature-determining-car-prices
+## best-model-for-predicting-campaign-success
 
-Vehicle data analysis repository investigates and creates independent analysis to provide clear recommendation to my client-a used car dealreship-as to what consumers value in a car using CRISP-DM framework. vehicles.csv data from kaggle contains information of 426K cars for the analysis. 
+This project uses bank-additional-full.csv data from UC Irvine ML Repository which contains marketing campaign calls to customers about term deposit. We will use this data to understand the business, task, come up with jupyter notebook to evaluate performance of various machine learning classifiers.
 
 ## Jupyter Notebook
 
-Use the [jupyternotebook\1_bank_campaign_success_model_analysis.ipynb](https://github.com/khushboochandra07/vehicle_data_analysis/blob/main/jupyternotebook/1_bank_campaign_success_model_analysis.ipynb) to look at the results and findings
+Use the [jupyternotebook\1_bank_campaign_success_model_analysis.ipynb](https://github.com/khushboochandra07/bank_marketing_data_ml_model/blob/main/jupyternotebook/1_bank_campaign_success_model_analysis.ipynb) to look at the results and findings
 
 ## CRISP_DM Framework
 
