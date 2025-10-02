@@ -72,12 +72,12 @@ Confusion Matrix:
 ![alt text](/images/model_comp.png)
 
 Cross validation results:
-
-              Model CV Accuracy Std Dev
-Logistic Regression      0.8977  0.0018
-                KNN      0.8900  0.0014
-      Decision Tree      0.8412  0.0029
-                SVM      0.8977  0.0022
+| Model               | CV  Accuarcy| Std Dev |
+| ------------------- | ----------- | ------- |
+| Logistic Regression | 0.8977      | 0.0018 |
+| KNN                 | 0.8900      | 0.0014 |
+| Decision Tree       | 0.8412      | 0.0029 |
+| SVM                 | 0.8977      | 0.0022 |
 
 ![alt text](/images/model_accuracy.png)
 
