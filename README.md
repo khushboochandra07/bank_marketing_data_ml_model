@@ -55,6 +55,8 @@ Conclusion from the visualization and correlation matrix;
 
 **Results from simple Model**
 
+As per the simple model job, not having credit defaults and marital status are most important feature for campaign success.
+
 ![alt text](/images/simple_coeff.png)
 ![alt text](/images/simple_classification.png)
 
@@ -92,9 +94,12 @@ Best params for each model:
 
 ![alt text](/images/hyperparameter_tuning.png)
 
+**Actions**
+For the success of campaign it is important to take into account the **education, job, age, marital, credit status** of the targeted audience of the campaigns. It is also evident people **not having previous loan** are **higly likely to enroll in term deposit**. It will be good for business to identify such customers before making marketing campaign calls to make the campaign more effective and successful.  
 
-**Final Recommendation**
+**Next steps and Recommendation**
 *   Based on simple model and classifier comparison of KNN, SVM, Logistic Regresion and Decision tree best performance is of Logistic Regression. Most table based on CV and std deviation is KNN.
-*   After hyperparameter tuning, we notice that KNN performs the best with Model Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+*   After hyperparameter tuning, we notice that **KNN performs the best with Model Parameters: {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}**
+*   **Recommendation is to deploy KNN in production to identify customers who should be targeted for marketing campaign calls**.
 
 # Copyright (c) Khushboo Chandra.
